@@ -1,6 +1,6 @@
 # CLV Segmentation Project
 
-📊 **Customer Lifetime Value (CLV) Prediction and Customer Segmentation Toolkit**
+**Customer Lifetime Value (CLV) Prediction and Customer Segmentation Toolkit**
 
 ## Overview
 
@@ -10,14 +10,14 @@ This project provides a comprehensive toolkit for:
 - **Cohort Analysis** for understanding customer behavior over time
 - **Interactive Dashboard** for visualizing insights
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/clv-segmentation.git
-cd clv-segmentation
+git clone https://github.com/suphakit085/clv-segmentation-project.git
+cd clv-segmentation-project
 
 # Create virtual environment
 python -m venv venv
@@ -33,16 +33,16 @@ pip install -e .
 ### Running the Dashboard
 
 ```bash
-streamlit run dashboard/app.py
+python -m streamlit run dashboard/app.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 clv-segmentation-project/
 ├── data/
 │   ├── raw/                      # Original data
-│   ├── processed/                # Cleaned data
+│   ├── processed/                # Cleaned data + images
 │   └── features/                 # Feature store
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb
@@ -58,14 +58,22 @@ clv-segmentation-project/
 │   ├── models/                   # CLV and segmentation models
 │   ├── evaluation/               # Model evaluation metrics
 │   └── visualization/            # Plotting utilities
-├── tests/                        # Unit tests
+├── tests/                        # Unit tests (55 tests)
 ├── dashboard/                    # Streamlit dashboard
+├── docs/                         # Documentation
+│   ├── executive_summary.md
+│   ├── technical_report.md
+│   ├── blog_post.md
+│   ├── presentation.md
+│   └── video_script.md
+├── .github/workflows/            # CI/CD pipeline
 ├── requirements.txt
+├── environment.yml
 ├── README.md
 └── setup.py
 ```
 
-## 📚 Notebooks
+## Notebooks
 
 1. **01_data_exploration.ipynb** - Exploratory data analysis
 2. **02_cohort_analysis.ipynb** - Customer cohort analysis
@@ -73,9 +81,9 @@ clv-segmentation-project/
 4. **04_feature_engineering.ipynb** - Feature creation
 5. **05_clv_modeling.ipynb** - CLV prediction models
 6. **06_advanced_segmentation.ipynb** - Advanced clustering
-7. **07_business_recommendations.ipynb** - Business insights
+7. **07_business_recommendations.ipynb** - Business insights & ROI
 
-## 🔧 Key Features
+## Key Features
 
 ### RFM Analysis
 - Calculate Recency, Frequency, Monetary metrics
@@ -93,71 +101,33 @@ clv-segmentation-project/
 - DBSCAN
 - Gaussian Mixture Models
 
-## 📊 Usage Examples
-
-### RFM Analysis
-
-```python
-from src.features import calculate_rfm, calculate_rfm_scores, segment_rfm
-
-# Calculate RFM metrics
-rfm = calculate_rfm(transactions_df, 
-                    customer_id_col='customer_id',
-                    date_col='date',
-                    amount_col='amount')
-
-# Score customers
-rfm_scored = calculate_rfm_scores(rfm)
-
-# Assign segments
-rfm_segmented = segment_rfm(rfm_scored)
-```
-
-### CLV Prediction
-
-```python
-from src.models import BGNBDModel, GammaGammaModel
-
-# Fit BG/NBD model
-bgnbd = BGNBDModel()
-bgnbd.fit(frequency, recency, T)
-
-# Predict future transactions
-expected_purchases = bgnbd.predict_transactions(frequency, recency, T, t=12)
-```
-
-### Customer Segmentation
-
-```python
-from src.models import CustomerSegmentation
-
-# Create and fit segmentation model
-segmenter = CustomerSegmentation(algorithm='kmeans', n_clusters=5)
-segmenter.fit(feature_matrix)
-
-# Get cluster labels
-labels = segmenter.labels_
-```
-
-## 🧪 Testing
-
-```bash
-# Run all tests
-pytest tests/ -v
-
-# Run with coverage
-pytest tests/ --cov=src --cov-report=html
-```
-
-## 📈 Dashboard
+## Dashboard
 
 The Streamlit dashboard provides:
-- Data upload and preview
+- Customer overview with KPIs
 - Interactive RFM analysis
 - CLV prediction interface
 - Segment visualization
 
-## 🤝 Contributing
+## Testing
+
+```bash
+# Run all tests
+python -m pytest tests/ -v
+
+# Run with coverage
+python -m pytest tests/ --cov=src
+```
+
+## Documentation
+
+- **Executive Summary** - One-page business summary
+- **Technical Report** - Detailed methodology and findings
+- **Blog Post** - 2000+ word article for Medium
+- **Presentation** - 15-20 slides for stakeholders
+- **Video Script** - 5-minute walkthrough
+
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -165,10 +135,6 @@ The Streamlit dashboard provides:
 4. Push to the branch
 5. Create a Pull Request
 
-## 📄 License
+## Contact
+suphakit.kae@kkumail.com
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📧 Contact
-
-For questions or feedback, please open an issue on GitHub.
