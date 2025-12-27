@@ -1,0 +1,10 @@
+Segment,Customers,Avg_Recency,Avg_Frequency,Avg_Monetary,Total_Revenue,Avg_RFM,Revenue_Pct
+Champions,957,12.82,11.12,6051.87,5791640.74,13.92,65.2
+Loyal Customers,778,73.04,5.01,1706.03,1327290.83,10.78,14.9
+Potential Loyalists,492,17.12,2.01,1030.11,506813.63,9.64,5.7
+Others,368,164.63,2.29,995.69,366413.24,7.36,4.1
+Hibernating,664,278.08,1.06,475.09,315459.97,4.18,3.5
+Need Attention,373,53.1,1.82,688.57,256835.96,8.0,2.9
+About to Sleep,401,118.25,1.16,505.89,202862.18,5.6,2.3
+Promising,164,53.91,1.0,419.15,68740.7,5.91,0.8
+New Customers,141,18.5,1.0,362.78,51151.64,6.94,0.6
