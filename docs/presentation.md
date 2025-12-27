@@ -17,13 +17,13 @@
 
 ### What We'll Cover
 
-1. 📊 Business Problem
-2. 📁 Data Overview
-3. 🔍 Key Analyses
-4. 🤖 Machine Learning Models
-5. 💡 Insights & Recommendations
-6. 📈 Expected ROI
-7. 🚀 Next Steps
+1.  Business Problem
+2.  Data Overview
+3.  Key Analyses
+4.  Machine Learning Models
+5.  Insights & Recommendations
+6.  Expected ROI
+7.  Next Steps
 
 ---
 
@@ -249,11 +249,11 @@ Potential revenue: £25,000+
 
 ### 5 Things to Remember
 
-1. ✅ 18% customers = 45% revenue
-2. ✅ First 30 days are critical
-3. ✅ ML can predict CLV with 72% accuracy
-4. ✅ At-risk customers need immediate attention
-5. ✅ Expected ROI of 100%+
+1.  18% customers = 45% revenue
+2.  First 30 days are critical
+3.  ML can predict CLV with 72% accuracy
+4.  At-risk customers need immediate attention
+5.  Expected ROI of 100%+
 
 ---
 
@@ -261,10 +261,10 @@ Potential revenue: £25,000+
 
 ### Immediate Actions
 
-1. 🎯 Deploy VIP loyalty program (Week 1)
-2. 📧 Launch win-back email sequence (Week 2)
-3. 📊 Review dashboard weekly
-4. 🧪 Set up A/B testing framework
+1.  Deploy VIP loyalty program (Week 1)
+2.  Launch win-back email sequence (Week 2)
+3.  Review dashboard weekly
+4.  Set up A/B testing framework
 
 ### Long-term
 

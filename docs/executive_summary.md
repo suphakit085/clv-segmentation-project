@@ -1,6 +1,6 @@
 # Executive Summary: CLV Segmentation Analysis
 
-## 📊 Overview
+##  Overview
 
 This analysis provides actionable insights into customer behavior and lifetime value for strategic decision-making.
 
@@ -66,10 +66,10 @@ This analysis provides actionable insights into customer behavior and lifetime v
 
 ## Next Steps
 
-1. ✅ Review findings with stakeholders
-2. ⏳ Prioritize quick wins for immediate implementation
-3. ⏳ Set up ongoing monitoring dashboard
-4. ⏳ Schedule quarterly strategy reviews
+1.  Review findings with stakeholders
+2.  Prioritize quick wins for immediate implementation
+3.  Set up ongoing monitoring dashboard
+4.  Schedule quarterly strategy reviews
 
 ---
 
