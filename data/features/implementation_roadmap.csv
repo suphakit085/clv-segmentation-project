@@ -1,0 +1,5 @@
+Phase,Name,Timeline,Focus Segments,Actions,Expected Impact,Resources
+1,Quick Wins,Month 1-2,"Champions, Loyal Customers","['Launch VIP loyalty program', 'Implement personalized email campaigns', 'Set up referral program']","£50,000","Marketing team, Email platform"
+2,Retention Focus,Month 3-4,"At Risk, About to Sleep","['Launch win-back campaigns', 'A/B test discount offers', 'Implement exit surveys']","£35,000","Marketing team, Analytics"
+3,Growth Acceleration,Month 5-6,"New Customers, Potential Loyalists","['Optimize onboarding flow', 'Launch cross-sell campaigns', 'Implement product recommendations']","£40,000","Marketing, Product team"
+4,Optimization,Month 7-12,All segments,"['Analyze results and optimize', 'Scale successful campaigns', 'Implement ML-based personalization']","£75,000","Full team, Data Science"

@@ -1,0 +1,6 @@
+KMeans_Cluster,Customers,Avg_Recency,Avg_Frequency,Avg_Monetary,Total_Monetary,Avg_CLV,Pct_Customers,Pct_Revenue,Cluster_Name
+0,3048,43.92,3.65,1333.13,4063389.1,739.27,70.3,45.7,Loyal Regulars
+1,1063,248.47,1.55,478.65,508803.08,291.04,24.5,5.7,Dormant
+2,8,6.5,120.5,55099.49,440795.93,28837.85,0.2,5.0,VIP Champions
+3,213,15.67,21.29,12813.94,2729369.56,7201.76,4.9,30.7,VIP Champions
+4,6,7.67,42.83,190808.54,1144851.22,84210.4,0.1,12.9,VIP Champions

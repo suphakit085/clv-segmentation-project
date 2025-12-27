@@ -1,0 +1,11 @@
+Segment,Priority,Goal,Key Tactics,Budget %,Expected ROI
+Champions,HIGH,Retain and maximize value,"VIP loyalty program with exclusive benefits, Early access to new products",15,3.5
+Loyal Customers,HIGH,Upsell and cross-sell,"Personalized product recommendations, Loyalty rewards program",20,3.0
+Potential Loyalists,MEDIUM,Convert to loyal customers,"Onboarding email sequence, First repeat purchase discount",15,2.5
+New Customers,MEDIUM,Engage and nurture,"Welcome email series, First-time buyer benefits",10,2.0
+Promising,MEDIUM,Increase engagement,"Targeted promotions, Product discovery emails",10,1.8
+At Risk,HIGH,Win back before churn,"Personalized win-back email, Special comeback discount",15,2.2
+About to Sleep,MEDIUM,Reactivate before dormant,"Re-engagement campaign, We miss you email",5,1.5
+Hibernating,LOW,Attempt reactivation,"Final attempt email, Big discount offer",5,1.0
+Lost,LOW,Low-cost reactivation or remove,"Single reactivation attempt, List cleaning",2,0.5
+Need Attention,MEDIUM,Increase frequency,"Reminder emails, Personalized offers",3,1.3
