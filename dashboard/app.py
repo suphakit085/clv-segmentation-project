@@ -16,7 +16,7 @@ import os
 # Page config
 st.set_page_config(
     page_title="CLV Segmentation Dashboard",
-    page_icon="📊",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -46,7 +46,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title
-st.markdown('<h1 class="main-header">📊 Customer Lifetime Value Dashboard</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header"> Customer Lifetime Value Dashboard</h1>', unsafe_allow_html=True)
 
 # Data paths
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -240,7 +240,7 @@ def main():
         return
     
     # Sidebar
-    st.sidebar.header("📊 Dashboard Controls")
+    st.sidebar.header(" Dashboard Controls")
     
     # Page selection
     page = st.sidebar.selectbox(
@@ -260,7 +260,7 @@ def main():
     
     # Main content based on page
     if page == "Overview":
-        st.header("📈 Business Overview")
+        st.header(" Business Overview")
         
         # Metrics
         create_metric_cards(data)
@@ -286,7 +286,7 @@ def main():
             st.plotly_chart(fig, use_container_width=True)
     
     elif page == "RFM Analysis":
-        st.header("🎯 RFM Segmentation Analysis")
+        st.header(" RFM Segmentation Analysis")
         
         # RFM Scatter
         fig = create_rfm_scatter(data)
@@ -336,7 +336,7 @@ def main():
             }))
     
     elif page == "Segment Deep Dive":
-        st.header("👥 Segment Deep Dive")
+        st.header(" Segment Deep Dive")
         
         # Segment heatmap
         fig = create_segment_profile_heatmap(data)
@@ -353,7 +353,7 @@ def main():
     
     # Footer
     st.sidebar.markdown("---")
-    st.sidebar.markdown("Built with ❤️ using Streamlit")
+    st.sidebar.markdown("Built with using Streamlit")
     st.sidebar.markdown("CLV Segmentation Project")
 
 
